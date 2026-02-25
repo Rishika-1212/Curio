@@ -1,2 +1,6 @@
 streamlit
-exa-py
+tensorflow>=2.15.0
+tf-keras
+torch
+transformers
+numpy<2.0.0  # Crucial to avoid the np.object error
